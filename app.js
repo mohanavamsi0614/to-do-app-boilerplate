@@ -18,7 +18,7 @@ function click() {
 function main() {
     todo.innerHTML=""
     l.forEach((v,i)=>{
-        todo.innerHTML+="<li>"+v+"<a onclick='edit("+i+")'>edit</a><a onclick='del("+i+")'>X</li>"
+        todo.innerHTML+="<li>"+v+"<a onclick='edit("+i+")'>edit</a><a onclick='del("+i+")'>X||</li>"
 })
 }
 function edit(i) {
